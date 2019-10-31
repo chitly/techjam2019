@@ -1,0 +1,59 @@
+<div id="brinza-task-description">
+  <p>
+    You are given a string consisting of lowercase letters of the English
+    alphabet. You must split this string into a minimal number of substrings in
+    such a way that no letter occurs more than once in each substring.
+  </p>
+  <p>
+    For example, here are some correct splits of the string "abacdec": ('a',
+    'bac', 'dec'), ('a', bacd', 'ec') and ('ab', 'ac', 'dec').
+  </p>
+  <p>Write a function:</p>
+  <blockquote>
+    <p
+      style="font-family: monospace; font-size: 9pt; display: block; white-space: pre-wrap"
+    >
+      <tt>def solution(S)</tt>
+    </p>
+  </blockquote>
+  <p>
+    that, given a string S of length N, returns the minimum number of substrings
+    into which the string has to be split.
+  </p>
+  <p><b>Examples:</b></p>
+  <p>
+    1. Given 'world', your function should return 1. There is no need to split
+    the string into substrings as all letters occur just once.
+  </p>
+  <p>
+    2. Given 'dddd', your function should return 4. The result can be achieved
+    by splitting the string into four substrings ('d', 'd', 'd', 'd').
+  </p>
+  <p>
+    3. Given 'cycle', your function should return 2. The result can be achieved
+    by splitting the string into two substrings ('cy', 'cle') or ('c', 'ycle').
+  </p>
+  <p>
+    4. Given 'abba', your function should return 2. The result can be achieved
+    by splitting the string into two substrings ('ab', 'ba').
+  </p>
+  <p>
+    Write an <b><b>efficient</b></b> algorithm for the following assumptions:
+  </p>
+  <blockquote>
+    <ul style="margin: 10px;padding: 0px;">
+      <li>
+        N is an integer within the range [<span class="number">1</span>..<span
+          class="number"
+          >1,000,000</span
+        >];
+      </li>
+      <li>
+        string S consists only of lowercase letters (<tt
+          style="white-space:pre-wrap"
+          >a</tt
+        >−<tt style="white-space:pre-wrap">z</tt>).
+      </li>
+    </ul>
+  </blockquote>
+</div>
