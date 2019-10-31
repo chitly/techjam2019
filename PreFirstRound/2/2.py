@@ -1,5 +1,7 @@
 import queue
 def solution(T):
+    if T == [0]:
+        return 1
     path = {}
     for i in range(1, len(T)):
         if i in path:

@@ -1,4 +1,6 @@
 def solution(A):
+    if len(A) == 0:
+        return 0
     n_dup_cur = 1
     cur, before = A[0], None
     pair = [1, 0] # [n_cur, n_before]
