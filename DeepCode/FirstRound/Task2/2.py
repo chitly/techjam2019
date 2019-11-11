@@ -15,6 +15,8 @@ def pushStack(x, stack, inStack, canUse):
     return False
 
 def extendP(p, stack, inStack, canUse):
+    if len(canUse) == 0:
+        return
     s = sorted(canUse)
     canUseChange = False
     if s[0] != p[-1]:
